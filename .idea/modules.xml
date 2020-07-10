@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dev-threefan-api/dev-threefan-api.iml" filepath="$PROJECT_DIR$/dev-threefan-api/dev-threefan-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-threefan-app/dev-threefan-app.iml" filepath="$PROJECT_DIR$/dev-threefan-app/dev-threefan-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-threefan-bootstrap/dev-threefan-bootstrap.iml" filepath="$PROJECT_DIR$/dev-threefan-bootstrap/dev-threefan-bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-threefan-conf/dev-threefan-conf.iml" filepath="$PROJECT_DIR$/dev-threefan-conf/dev-threefan-conf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-threefan-domain/dev-threefan-domain.iml" filepath="$PROJECT_DIR$/dev-threefan-domain/dev-threefan-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dev-threefan-mobile/dev-threefan-mobile.iml" filepath="$PROJECT_DIR$/dev-threefan-mobile/dev-threefan-mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threefan.iml" filepath="$PROJECT_DIR$/threefan.iml" />
+    </modules>
+  </component>
+</project>

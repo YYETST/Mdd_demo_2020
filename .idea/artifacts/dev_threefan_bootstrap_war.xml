@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dev-threefan-bootstrap:war">
+    <output-path>$PROJECT_DIR$/dev-threefan-bootstrap/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dev-threefan-bootstrap</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mdd.war">
+      <element id="artifact" artifact-name="dev-threefan-bootstrap:war exploded" />
+    </root>
+  </artifact>
+</component>

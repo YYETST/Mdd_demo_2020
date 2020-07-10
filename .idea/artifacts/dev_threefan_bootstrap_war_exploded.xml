@@ -1,0 +1,447 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dev-threefan-bootstrap:war exploded">
+    <output-path>$PROJECT_DIR$/dev-threefan-bootstrap/target/mdd</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>dev-threefan-bootstrap</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dev-threefan-bootstrap" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.15" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.11.2" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.11.2" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3.2" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.23" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.8" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.17" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.17" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.17" />
+          <element id="library" level="project" name="Maven: org.hibernate.validator:hibernate-validator:6.0.13.Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.4.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-actuator:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-actuator:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-core:1.1.4" />
+          <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" />
+          <element id="library" level="project" name="Maven: org.latencyutils:LatencyUtils:2.0.3" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-registry-prometheus:1.1.4" />
+          <element id="library" level="project" name="Maven: io.prometheus:simpleclient_common:0.5.0" />
+          <element id="library" level="project" name="Maven: io.prometheus:simpleclient:0.5.0" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-security:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.9.2" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.2" />
+          <element id="library" level="project" name="Maven: cglib:cglib:3.1" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:4.2" />
+          <element id="library" level="project" name="Maven: com.yonyou.metadata:yonyou-metadata-common:0.0.2-RELEASE" />
+          <element id="library" level="project" name="Maven: com.yonyou.busiglossary:yonyou-busiglossary-common:0.0.1-RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.8.1" />
+          <element id="archive" name="dev-threefan-mobile-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="dev-threefan-mobile" />
+          </element>
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyoucloud/ec/lib-context-core/3.3.41-SNAPSHOT/lib-context-core-3.3.41-20200323.100547-1.jar" output-file-name="lib-context-core-3.3.41-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.59" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.59" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-text:1.6" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/ucf-common/1.0.6-SNAPSHOT/ucf-common-1.0.6-20200408.044833-14.jar" output-file-name="ucf-common-1.0.6-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-org-api:4.0.0-RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-org-domain/4.0.0-SNAPSHOT/iuap-org-domain-4.0.0-20190727.074336-1.jar" output-file-name="iuap-org-domain-4.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-bd-common-api/2.1.0-SNAPSHOT/iuap-bd-common-api-2.1.0-20181227.114952-24.jar" output-file-name="iuap-bd-common-api-2.1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/metadata/metadata-sdk/1.0.4-SNAPSHOT/metadata-sdk-1.0.4-20190218.025958-3.jar" output-file-name="metadata-sdk-1.0.4-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.4" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.11" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/uitemplate_sdk_common/1.0-diwork-SNAPSHOT/uitemplate_sdk_common-1.0-diwork-20180331.072112-4.jar" output-file-name="uitemplate_sdk_common-1.0-diwork-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-iweb:3.1.0-RELEASE" />
+          <element id="library" level="project" name="Maven: xerces:xercesImpl:2.8.0" />
+          <element id="library" level="project" name="Maven: org.codehaus.jettison:jettison:1.2" />
+          <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.28" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-bd-common-utils/2.1.0-SNAPSHOT/iuap-bd-common-utils-2.1.0-20191029.110709-80.jar" output-file-name="iuap-bd-common-utils-2.1.0-SNAPSHOT.jar" />
+          <element id="archive" name="dev-threefan-app-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="dev-threefan-app" />
+          </element>
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/common/bizFlow-runtime-sdk/1.0.0-SNAPSHOT/bizFlow-runtime-sdk-1.0.0-20200629.121703-38.jar" output-file-name="bizFlow-runtime-sdk-1.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/ucf-log/1.0.6-SNAPSHOT/ucf-log-1.0.6-20200416.024320-10.jar" output-file-name="ucf-log-1.0.6-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.codehaus.janino:janino:3.0.12" />
+          <element id="library" level="project" name="Maven: org.codehaus.janino:commons-compiler:3.0.12" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/ucf-core/1.0.6-SNAPSHOT/ucf-core-1.0.6-20200514.020149-29.jar" output-file-name="ucf-core-1.0.6-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: javax.persistence:javax.persistence-api:2.2" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar" output-file-name="org.dom4j-dom4j-2.1.1.jar" />
+          <element id="archive" name="dev-threefan-domain-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="dev-threefan-domain" />
+          </element>
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-web/3.0.2-SNAPSHOT/mdd-web-3.0.2-20200703.074610-113.jar" output-file-name="mdd-web-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-permission/3.0.2-SNAPSHOT/mdd-permission-3.0.2-20200703.074531-116.jar" output-file-name="mdd-permission-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyoucloud/u8c-auth-sdk/1.0.2-SNAPSHOT/u8c-auth-sdk-1.0.2-20200703.035852-2.jar" output-file-name="u8c-auth-sdk-1.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-default-rules/3.0.2-SNAPSHOT/mdd-default-rules-3.0.2-20200703.103122-140.jar" output-file-name="mdd-default-rules-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-billcode-sdk/2.3.1-SNAPSHOT/iuap-billcode-sdk-2.3.1-20200703.010623-26.jar" output-file-name="iuap-billcode-sdk-2.3.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/log/iuap-log-sdk/1.1.1-SNAPSHOT/iuap-log-sdk-1.1.1-20200611.120753-6.jar" output-file-name="iuap-log-sdk-1.1.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/log/iuap-log-common/1.1.1-SNAPSHOT/iuap-log-common-1.1.1-20200611.120741-6.jar" output-file-name="iuap-log-common-1.1.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-bd-translation-sdk/4.1.1-SNAPSHOT/iuap-bd-translation-sdk-4.1.1-20200617.081513-5.jar" output-file-name="iuap-bd-translation-sdk-4.1.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-sdk-common/4.0.2-SNAPSHOT/iuap-sdk-common-4.0.2-20200522.132105-3.jar" output-file-name="iuap-sdk-common-4.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-bd-translation/4.1.1-SNAPSHOT/iuap-bd-translation-4.1.1-20200617.081449-6.jar" output-file-name="iuap-bd-translation-4.1.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-bd-translation-api/4.1.1-SNAPSHOT/iuap-bd-translation-api-4.1.1-20200610.140406-4.jar" output-file-name="iuap-bd-translation-api-4.1.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-es-sdk/2.2.1-SNAPSHOT/iuap-es-sdk-2.2.1-20190821.104442-1.jar" output-file-name="iuap-es-sdk-2.2.1-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-persistence:3.1.0-RELEASE" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:5.3.9.Final" />
+          <element id="library" level="project" name="Maven: com.unboundid:unboundid-ldapsdk:4.0.10" />
+          <element id="library" level="project" name="Maven: solutions.siren:siren-join:2.4.2-1" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/dataplatform/dataplatform-gateway-client/1.0.0-SNAPSHOT/dataplatform-gateway-client-1.0.0-20171221.091351-6.jar" output-file-name="dataplatform-gateway-client-1.0.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka-clients:2.0.1" />
+          <element id="library" level="project" name="Maven: org.lz4:lz4-java:1.4.1" />
+          <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.7.1" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-mybatis:3.1.0-RC003" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:1.4" />
+          <element id="library" level="project" name="Maven: com.yonyou.metadata:metadata-api-base-sdk:0.0.3-RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.retry:spring-retry:1.2.4.RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-dao/3.0.2-SNAPSHOT/mdd-dao-3.0.2-20200703.074454-127.jar" output-file-name="mdd-dao-3.0.2-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.1.4.RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-poi/3.0.2-SNAPSHOT/mdd-poi-3.0.2-20200703.075021-164.jar" output-file-name="mdd-poi-3.0.2-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: net.lingala.zip4j:zip4j:2.5.1" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/ucf/ucf-basedoc-api/1.0.1-SNAPSHOT/ucf-basedoc-api-1.0.1-20200702.111154-26.jar" output-file-name="ucf-basedoc-api-1.0.1-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.0" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-biz-ex/3.0.2-SNAPSHOT/mdd-biz-ex-3.0.2-20200703.074458-97.jar" output-file-name="mdd-biz-ex-3.0.2-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:ucf-mlruntime:1.0.6-RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/metadata/metadata-api-unified-sdk/0.0.20-SNAPSHOT/metadata-api-unified-sdk-0.0.20-20200629.092134-46.jar" output-file-name="metadata-api-unified-sdk-0.0.20-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.metadata:yonyou-metadata-utils:0.0.2-RELEASE" />
+          <element id="library" level="project" name="Maven: org.mongodb:bson:3.8.2" />
+          <element id="library" level="project" name="Maven: org.dom4j:com.springsource.org.dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: com.github.java-json-tools:json-schema-validator:2.2.8" />
+          <element id="library" level="project" name="Maven: javax.mail:mailapi:1.4.3" />
+          <element id="library" level="project" name="Maven: com.googlecode.libphonenumber:libphonenumber:8.0.0" />
+          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:3.0.1" />
+          <element id="library" level="project" name="Maven: net.sf.jopt-simple:jopt-simple:5.0.3" />
+          <element id="library" level="project" name="Maven: com.github.java-json-tools:json-schema-core:1.2.8" />
+          <element id="library" level="project" name="Maven: org.mozilla:rhino:1.7R4" />
+          <element id="library" level="project" name="Maven: com.github.fge:jackson-coreutils:1.8" />
+          <element id="library" level="project" name="Maven: com.github.fge:msg-simple:1.1" />
+          <element id="library" level="project" name="Maven: com.github.fge:btf:1.2" />
+          <element id="library" level="project" name="Maven: com.github.fge:uri-template:0.9" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/ucf/basedoc-base-meta/1.0.2-SNAPSHOT/basedoc-base-meta-1.0.2-20190827.112020-23.jar" output-file-name="basedoc-base-meta-1.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/ucf/basedoc-meta-resources/1.0.2-SNAPSHOT/basedoc-meta-resources-1.0.2-20191218.060600-21.jar" output-file-name="basedoc-meta-resources-1.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/ucf/staff-meta-resources/1.0.2-SNAPSHOT/staff-meta-resources-1.0.2-20191212.015212-9.jar" output-file-name="staff-meta-resources-1.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/ucf/org-meta-resources/1.0.2-SNAPSHOT/org-meta-resources-1.0.2-20191212.015215-10.jar" output-file-name="org-meta-resources-1.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-ext-common/3.0.2-SNAPSHOT/mdd-ext-common-3.0.2-20200703.074704-134.jar" output-file-name="mdd-ext-common-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-ext-multilang-spi/3.0.2-SNAPSHOT/mdd-ext-multilang-spi-3.0.2-20200703.074619-87.jar" output-file-name="mdd-ext-multilang-spi-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-ext-base/3.0.2-SNAPSHOT/mdd-ext-base-3.0.2-20200703.074624-93.jar" output-file-name="mdd-ext-base-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/u8c-auth-pub-api/1.0.2-SNAPSHOT/u8c-auth-pub-api-1.0.2-20200703.035942-5.jar" output-file-name="u8c-auth-pub-api-1.0.2-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.7.26" />
+          <element id="library" level="project" name="Maven: net.spy:spymemcached:2.11.7" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.6.11" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-email:1.4" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.2" />
+          <element id="library" level="project" name="Maven: com.bladejava:blade-patchca:1.0.3" />
+          <element id="library" level="project" name="Maven: com.bladejava:blade-core:1.6.0M1" />
+          <element id="library" level="project" name="Maven: com.bladejava:blade-kit:1.2.9-beta" />
+          <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.bundles:commons-httpclient:3.1_2" />
+          <element id="library" level="project" name="Maven: javax.media:jai-core:1.1.3" />
+          <element id="library" level="project" name="Maven: com.sun.media:jai-codec:1.1.3" />
+          <element id="library" level="project" name="Maven: com.aliyun.oss:aliyun-sdk-oss:3.8.1" />
+          <element id="library" level="project" name="Maven: org.jdom:jdom:1.1" />
+          <element id="library" level="project" name="Maven: com.aliyun:aliyun-java-sdk-core:3.4.0" />
+          <element id="library" level="project" name="Maven: com.aliyun:aliyun-java-sdk-ram:3.0.0" />
+          <element id="library" level="project" name="Maven: com.aliyun:aliyun-java-sdk-sts:3.0.0" />
+          <element id="library" level="project" name="Maven: com.aliyun:aliyun-java-sdk-ecs:4.2.0" />
+          <element id="library" level="project" name="Maven: com.alibaba:simpleimage:1.2.3" />
+          <element id="library" level="project" name="Maven: com.qiniu:qiniu-java-sdk:7.2.18" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-file:3.1.1-RELEASE" />
+          <element id="library" level="project" name="Maven: org.csource:fastdfs_client:1.25" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/yts-core/1.1.0-SNAPSHOT/yts-core-1.1.0-20200703.074125-35.jar" output-file-name="yts-core-1.1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/yts-api/1.1.0-SNAPSHOT/yts-api-1.1.0-20200703.074116-35.jar" output-file-name="yts-api-1.1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-common/3.0.2-SNAPSHOT/mdd-common-3.0.2-20200703.080412-142.jar" output-file-name="mdd-common-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/apm/apm-common/1.0-SNAPSHOT/apm-common-1.0-20200703.074158-163.jar" output-file-name="apm-common-1.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: net.bull.javamelody:javamelody-core:1.83.0" />
+          <element id="library" level="project" name="Maven: org.jrobin:jrobin:1.5.9" />
+          <element id="library" level="project" name="Maven: com.alibaba:transmittable-thread-local:2.11.4" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-typehandlers-jsr310:1.0.2" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr:3.0.1" />
+          <element id="library" level="project" name="Maven: org.antlr:stringtemplate:3.1-b1" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr-runtime:3.0.1" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-api/3.0.2-SNAPSHOT/mdd-api-3.0.2-20200703.074411-111.jar" output-file-name="mdd-api-3.0.2-SNAPSHOT.jar" />
+          <element id="archive" name="dev-threefan-conf-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="dev-threefan-conf" />
+          </element>
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.2" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.6" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-pub-multilingual/4.0.6-SNAPSHOT/diwork-pub-multilingual-4.0.6-20200110.095735-5.jar" output-file-name="diwork-pub-multilingual-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-framework-clientcache/4.0.6-SNAPSHOT/diwork-framework-clientcache-4.0.6-20191216.091646-3.jar" output-file-name="diwork-framework-clientcache-4.0.6-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: de.javakaffee:kryo-serializers:0.42" />
+          <element id="library" level="project" name="Maven: com.esotericsoftware:kryo:4.0.0" />
+          <element id="library" level="project" name="Maven: com.esotericsoftware:reflectasm:1.11.3" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-saas-dynamicds:3.1.0-RC001" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jdbc:9.0.13" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:9.0.13" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-disconfclient:3.1.0-RELEASE" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-disconfcore:3.1.0-RELEASE" />
+          <element id="library" level="project" name="Maven: org.reflections:reflections:0.9.9-RC1" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjtools:1.9.2" />
+          <element id="library" level="project" name="Maven: org.apache.curator:curator-recipes:2.5.0" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-billcode-mdd/2.3.1-SNAPSHOT/iuap-billcode-mdd-2.3.1-20200703.010642-14.jar" output-file-name="iuap-billcode-mdd-2.3.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-billcode-domain/2.3.1-SNAPSHOT/iuap-billcode-domain-2.3.1-20200703.010636-26.jar" output-file-name="iuap-billcode-domain-2.3.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-lock/5.0.2-SNAPSHOT/iuap-lock-5.0.2-20200528.074754-1.jar" output-file-name="iuap-lock-5.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-billcode-common/2.3.1-SNAPSHOT/iuap-billcode-common-2.3.1-20200703.010616-26.jar" output-file-name="iuap-billcode-common-2.3.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-billcode-core/2.3.1-SNAPSHOT/iuap-billcode-core-2.3.1-20200703.010621-26.jar" output-file-name="iuap-billcode-core-2.3.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/metadata/metadata-mdd-api-sdk/0.0.3-SNAPSHOT/metadata-mdd-api-sdk-0.0.3-20200629.092535-4.jar" output-file-name="metadata-mdd-api-sdk-0.0.3-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.5" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:1.8" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils-core:1.7.0" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyoucloud/userdefine-mdd/4.0.0-SNAPSHOT/userdefine-mdd-4.0.0-20200408.055830-4.jar" output-file-name="userdefine-mdd-4.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyoucloud/userdef-mdd-tools/4.0.0-SNAPSHOT/userdef-mdd-tools-4.0.0-20200515.031800-4.jar" output-file-name="userdef-mdd-tools-4.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyoucloud/userdefine-api/4.0.0-SNAPSHOT/userdefine-api-4.0.0-20200518.021844-13.jar" output-file-name="userdefine-api-4.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/ucf/HttpClientUtils/1.0-SNAPSHOT/HttpClientUtils-1.0-20200618.050507-19.jar" output-file-name="HttpClientUtils-1.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.6.1" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-bpm/3.0.2-SNAPSHOT/mdd-bpm-3.0.2-20200703.074431-111.jar" output-file-name="mdd-bpm-3.0.2-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.uap.bpm:ubpm-rest-sdk:2.7-YS-RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-rule-sdk/3.0.2-SNAPSHOT/mdd-rule-sdk-3.0.2-20200703.074427-113.jar" output-file-name="mdd-rule-sdk-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/bPaaS_formula/0.0.3-SNAPSHOT/bPaaS_formula-0.0.3-20200620.032605-44.jar" output-file-name="bPaaS_formula-0.0.3-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.thoughtworks.xstream:xstream:1.4.8" />
+          <element id="library" level="project" name="Maven: xmlpull:xmlpull:1.1.3.1" />
+          <element id="library" level="project" name="Maven: xpp3:xpp3_min:1.1.4c" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/metadata/metadata-api-sdk/0.0.2-SNAPSHOT/metadata-api-sdk-0.0.2-20200512.082212-39.jar" output-file-name="metadata-api-sdk-0.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-utils/1.0.0-SNAPSHOT/mdd-utils-1.0.0-20200422.052016-9.jar" output-file-name="mdd-utils-1.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyoucloud/base-api-sdk/1.2.2-SNAPSHOT/base-api-sdk-1.2.2-20200508.024718-40.jar" output-file-name="base-api-sdk-1.2.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyoucloud/base-api-common/1.2.1-SNAPSHOT/base-api-common-1.2.1-20200324.102731-24.jar" output-file-name="base-api-common-1.2.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-iris-dubbo-bridge/4.0.5-SNAPSHOT/diwork-iris-dubbo-bridge-4.0.5-20190927.061328-15.jar" output-file-name="diwork-iris-dubbo-bridge-4.0.5-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.apache.curator:curator-framework:4.2.0" />
+          <element id="library" level="project" name="Maven: org.apache.curator:curator-client:4.2.0" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.8" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+          <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/ucf/mdf/yonyou-mdf-sdk/4.1.0-SNAPSHOT/yonyou-mdf-sdk-4.1.0-20200521.061119-2.jar" output-file-name="yonyou-mdf-sdk-4.1.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.58" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/hubble-common/1.0-SNAPSHOT/hubble-common-1.0-20200520.130035-12.jar" output-file-name="hubble-common-1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/dtx-datasource/0.0.2-SNAPSHOT/dtx-datasource-0.0.2-20200701.090156-20.jar" output-file-name="dtx-datasource-0.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/apm/apm-dapper/1.0-SNAPSHOT/apm-dapper-1.0-20200703.074136-156.jar" output-file-name="apm-dapper-1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/apm/apm-util/1.0-SNAPSHOT/apm-util-1.0-20200703.074127-38.jar" output-file-name="apm-util-1.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/apm/apm-data-report/1.0-SNAPSHOT/apm-data-report-1.0-20200703.074122-38.jar" output-file-name="apm-data-report-1.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: io.vavr:vavr:0.10.3" />
+          <element id="library" level="project" name="Maven: io.vavr:vavr-match:0.10.3" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/apm/apm-core/1.0-SNAPSHOT/apm-core-1.0-20200703.074144-45.jar" output-file-name="apm-core-1.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:3.3.1" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/inotify-sdk/5.2.1-SNAPSHOT/inotify-sdk-5.2.1-20200702.122044-74.jar" output-file-name="inotify-sdk-5.2.1-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/common-conf/0.0.1-SNAPSHOT/common-conf-0.0.1-20200608.124011-11.jar" output-file-name="common-conf-0.0.1-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:4.0.1" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:2.2.2" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.26" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
+          <element id="library" level="project" name="Maven: com.yonyou.cloud:auth-sdk-core:3.5.2-RELEASE" />
+          <element id="library" level="project" name="Maven: com.auth0:java-jwt:3.3.0" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/inotify-addons/5.2.1-SNAPSHOT/inotify-addons-5.2.1-20200630.080408-66.jar" output-file-name="inotify-addons-5.2.1-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.cloud:yonscript-mdf:3.0.2-RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/hpapaas/hpa-yonqlparser/1.0-SNAPSHOT/hpa-yonqlparser-1.0-20200625.033654-13.jar" output-file-name="hpa-yonqlparser-1.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.15" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.4" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.3.40" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.40" />
+          <element id="library" level="project" name="Maven: org.jetbrains:annotations:13.0" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/yonscript-engine/1.0.5-SNAPSHOT/yonscript-engine-1.0.5-20200622.071428-29.jar" output-file-name="yonscript-engine-1.0.5-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-cache:5.0.0-RELEASE" />
+          <element id="library" level="project" name="Maven: io.springside:springside-redis:4.3.1-RELEASE" />
+          <element id="library" level="project" name="Maven: io.springside:springside-utils:4.3.1-RELEASE" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.2" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/org/imeta/imeta-core/2.0.22-SNAPSHOT/imeta-core-2.0.22-20200626.082106-25.jar" output-file-name="imeta-core-2.0.22-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.9.0" />
+          <element id="library" level="project" name="Maven: com.esotericsoftware:kryo-shaded:4.0.1" />
+          <element id="library" level="project" name="Maven: com.esotericsoftware:minlog:1.3.0" />
+          <element id="library" level="project" name="Maven: org.objenesis:objenesis:2.5.1" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-tenant-sdk:5.0.1-release" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-utils/5.0.2-SNAPSHOT/iuap-utils-5.0.2-20200609.090941-16.jar" output-file-name="iuap-utils-5.0.2-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.3" />
+          <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:2.4" />
+          <element id="library" level="project" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.8" />
+          <element id="library" level="project" name="Maven: com.github.ben-manes.caffeine:caffeine:2.6.2" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/org/imeta/imeta-orm/2.0.22-SNAPSHOT/imeta-orm-2.0.22-20200624.092311-15.jar" output-file-name="imeta-orm-2.0.22-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/org/imeta/imeta-biz/2.0.22-SNAPSHOT/imeta-biz-2.0.22-20200628.032420-11.jar" output-file-name="imeta-biz-2.0.22-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/org/imeta/imeta-spring/2.0.22-SNAPSHOT/imeta-spring-2.0.22-20200624.092322-9.jar" output-file-name="imeta-spring-2.0.22-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: cn.yueshutong:FileHelper:1.0.RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/org/imeta/imeta-spring-support/2.0.22-SNAPSHOT/imeta-spring-support-2.0.22-20200627.023343-14.jar" output-file-name="imeta-spring-support-2.0.22-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.12" />
+          <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:2.3.0" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.7" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/org/imeta/imeta-tpl/2.0.22-SNAPSHOT/imeta-tpl-2.0.22-20200624.092318-9.jar" output-file-name="imeta-tpl-2.0.22-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/org/imeta/imeta-io/2.0.22-SNAPSHOT/imeta-io-2.0.22-20200624.092306-9.jar" output-file-name="imeta-io-2.0.22-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar" output-file-name="dom4j-dom4j-2.1.1.jar" />
+          <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.6" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-generic/5.0.1-SNAPSHOT/iuap-generic-5.0.1-20200110.023339-2.jar" output-file-name="iuap-generic-5.0.1-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-log:5.0.0-RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.26" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.26" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.8" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.3" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:3.2.0" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-sdk-eucsupport/4.0.6-SNAPSHOT/diwork-sdk-eucsupport-4.0.6-20200103.054150-3.jar" output-file-name="diwork-sdk-eucsupport-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-sdk/4.0.6-SNAPSHOT/diwork-sdk-4.0.6-20191203.093204-3.jar" output-file-name="diwork-sdk-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-pub-session/4.0.6-SNAPSHOT/diwork-pub-session-4.0.6-20200106.033352-4.jar" output-file-name="diwork-pub-session-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-pub-auth/4.0.6-SNAPSHOT/diwork-pub-auth-4.0.6-20200224.110627-8.jar" output-file-name="diwork-pub-auth-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-pub-service/4.0.6-SNAPSHOT/diwork-pub-service-4.0.6-20191219.053936-7.jar" output-file-name="diwork-pub-service-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-pub-widget/4.0.6-SNAPSHOT/diwork-pub-widget-4.0.6-20191225.080530-4.jar" output-file-name="diwork-pub-widget-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-framework-multilingual/4.0.6-SNAPSHOT/diwork-framework-multilingual-4.0.6-20191123.095950-2.jar" output-file-name="diwork-framework-multilingual-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-framework-plugin/4.0.6-SNAPSHOT/diwork-framework-plugin-4.0.6-20191123.095955-2.jar" output-file-name="diwork-framework-plugin-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/tenantauth-common/4.0.2-SNAPSHOT/tenantauth-common-4.0.2-20200301.023239-7.jar" output-file-name="tenantauth-common-4.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-pub-alert/4.0.6-SNAPSHOT/diwork-pub-alert-4.0.6-20191203.093146-2.jar" output-file-name="diwork-pub-alert-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-bd-anno/2.0.0-SNAPSHOT/iuap-bd-anno-2.0.0-20190718.034102-74.jar" output-file-name="iuap-bd-anno-2.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-bd-cnst/2.0.0-SNAPSHOT/iuap-bd-cnst-2.0.0-20190820.060640-125.jar" output-file-name="iuap-bd-cnst-2.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-framework-model/4.0.6-SNAPSHOT/diwork-framework-model-4.0.6-20191220.093049-3.jar" output-file-name="diwork-framework-model-4.0.6-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:5.3.9.Final" />
+          <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.9.12" />
+          <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final" />
+          <element id="library" level="project" name="Maven: org.jboss:jandex:2.0.5.Final" />
+          <element id="library" level="project" name="Maven: javax.activation:javax.activation-api:1.2.0" />
+          <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.4.Final" />
+          <element id="library" level="project" name="Maven: com.yonyou.cloud.middleware:middleware:5.2.4-RELEASE" />
+          <element id="library" level="project" name="Maven: com.yonyou.cloud.middleware:iris-springboot-support:5.2.4-RELEASE" />
+          <element id="library" level="project" name="Maven: com.yonyou.cloud.middleware:iris-spring-support:5.2.4-RELEASE" />
+          <element id="library" level="project" name="Maven: com.yonyou.cloud.middleware:iris-dubbo-fuse-support:5.2.4-RELEASE" />
+          <element id="library" level="project" name="Maven: com.yonyou.cloud:auth-sdk-client:3.5.2-RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:2.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.1.6.RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-common/4.0.6-SNAPSHOT/diwork-common-4.0.6-20191218.053234-3.jar" output-file-name="diwork-common-4.0.6-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.10.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.11" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-jpa:2.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.transaction:javax.transaction-api:1.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.6.RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-framework-exception/4.0.6-SNAPSHOT/diwork-framework-exception-4.0.6-20191123.095934-2.jar" output-file-name="diwork-framework-exception-4.0.6-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/diwork/diwork-framework-event/4.0.6-SNAPSHOT/diwork-framework-event-4.0.6-20191123.095940-2.jar" output-file-name="diwork-framework-event-4.0.6-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-event-rpc:2.0.0-RELEASE" />
+          <element id="library" level="project" name="Maven: com.yonyou.cloud.middleware:iris-iuap-support:5.2.4-RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-print/3.0.2-SNAPSHOT/mdd-print-3.0.2-20200703.074605-101.jar" output-file-name="mdd-print-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-uimeta-sdk/3.0.2-SNAPSHOT/mdd-uimeta-sdk-3.0.2-20200703.074449-171.jar" output-file-name="mdd-uimeta-sdk-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-core/3.0.2-SNAPSHOT/mdd-core-3.0.2-20200703.074422-128.jar" output-file-name="mdd-core-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/iuap/ucf-search/1.0.7-SNAPSHOT/ucf-search-1.0.7-20200601.060044-3.jar" output-file-name="ucf-search-1.0.7-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/cloud/search/opensearch-sdk/1.0.7-SNAPSHOT/opensearch-sdk-1.0.7-20200601.055906-5.jar" output-file-name="opensearch-sdk-1.0.7-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch:6.4.3" />
+          <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch-core:6.4.3" />
+          <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch-secure-sm:6.4.3" />
+          <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch-x-content:6.4.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.9.8" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-analyzers-common:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-backward-codecs:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-grouping:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-highlighter:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-join:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-memory:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-misc:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-sandbox:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-spatial:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-spatial-extras:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-spatial3d:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-suggest:7.4.0" />
+          <element id="library" level="project" name="Maven: org.elasticsearch:elasticsearch-cli:6.4.3" />
+          <element id="library" level="project" name="Maven: com.carrotsearch:hppc:0.7.1" />
+          <element id="library" level="project" name="Maven: com.tdunning:t-digest:3.2" />
+          <element id="library" level="project" name="Maven: org.elasticsearch:jna:4.5.1" />
+          <element id="library" level="project" name="Maven: com.caucho:hessian:4.0.37" />
+          <element id="library" level="project" name="Maven: org.csource:fastdfs-client-java:1.27-RELEASE" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-enum/3.0.2-SNAPSHOT/mdd-enum-3.0.2-20200703.074415-114.jar" output-file-name="mdd-enum-3.0.2-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou:mdd-cache-redis:1.0.0-RELEASE" />
+          <element id="library" level="project" name="Maven: io.protostuff:protostuff-core:1.6.0" />
+          <element id="library" level="project" name="Maven: io.protostuff:protostuff-runtime:1.6.0" />
+          <element id="library" level="project" name="Maven: io.protostuff:protostuff-collectionschema:1.6.0" />
+          <element id="library" level="project" name="Maven: io.protostuff:protostuff-api:1.6.0" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-ref/3.0.2-SNAPSHOT/mdd-ref-3.0.2-20200703.074435-113.jar" output-file-name="mdd-ref-3.0.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/mdd-option/3.0.2-SNAPSHOT/mdd-option-3.0.2-20200703.074440-107.jar" output-file-name="mdd-option-3.0.2-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-templates:2.5.6" />
+          <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy:2.5.6" />
+          <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-xml:2.5.6" />
+          <element id="library" level="project" name="Maven: com.yahoo.platform.yui:yuicompressor:2.4.8" />
+          <element id="library" level="project" name="Maven: rhino:js:1.7R2" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:4.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.3" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-math3:3.6.1" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:4.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:4.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:3.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-compress:1.18" />
+          <element id="library" level="project" name="Maven: com.github.virtuald:curvesapi:1.05" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/ucf/mdf/yonyou-mdf-iris/4.1.1-SNAPSHOT/yonyou-mdf-iris-4.1.1-20200620.041233-3.jar" output-file-name="yonyou-mdf-iris-4.1.1-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.ikexpression:ikexpression:2.1.0" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/ucf/ucf-userdef-api/4.0.0-SNAPSHOT/ucf-userdef-api-4.0.0-20200606.123417-2.jar" output-file-name="ucf-userdef-api-4.0.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/yonyou/ucf/ucf-userdef-common/4.0.0-SNAPSHOT/ucf-userdef-common-4.0.0-20200606.121055-1.jar" output-file-name="ucf-userdef-common-4.0.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap.print.client:1.0.3-RC003" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-security:5.0.1-RELEASE" />
+          <element id="library" level="project" name="Maven: org.owasp.esapi:esapi:2.1.0" />
+          <element id="library" level="project" name="Maven: org.beanshell:bsh-core:2.0b4" />
+          <element id="library" level="project" name="Maven: org.owasp.antisamy:antisamy:1.4.3" />
+          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-css:1.7" />
+          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-ext:1.7" />
+          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-util:1.7" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis-ext:1.3.04" />
+          <element id="library" level="project" name="Maven: net.sourceforge.nekohtml:nekohtml:1.9.22" />
+          <element id="library" level="project" name="Maven: org.java-websocket:Java-WebSocket:1.3.0" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-test:2.1.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: com.yonyou.iuap:iuap-tenant-cas:4.0.0-release" />
+          <element id="library" level="project" name="Maven: com.yonyou.yht:yht-sso-client:4.0.0-release" />
+          <element id="library" level="project" name="Maven: org.jasig.cas.client:cas-client-core:3.3.2" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.4.01" />
+          <element id="library" level="project" name="Maven: com.yonyou.yht:yht-sdk:4.0.0-release" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.6" />
+          <element id="library" level="project" name="Maven: com.yonyou.yht:yht-client-common:4.0.0-release" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:20.0" />
+          <element id="file-copy" path="D:/worksoft/gitworkspace/repository/com/eclipsesource/j2v8/j2v8_win32_x86_64/5.1.0-SNAPSHOT/j2v8_win32_x86_64-5.1.0-20190929.015125-3.jar" output-file-name="j2v8_win32_x86_64-5.1.0-SNAPSHOT.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/dev-threefan-bootstrap/target/mdd/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="dev-threefan-bootstrap/web/Web" />
+    </root>
+  </artifact>
+</component>

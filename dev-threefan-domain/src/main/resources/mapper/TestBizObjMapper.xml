@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yonyou.ucf.mdf.domain.dao.mybatisActivityDao">
+    <select id="select" resultType="List">
+        select string_0,string_1 from  t_test_xsw4twa9 limit 10
+    </select>
+</mapper>

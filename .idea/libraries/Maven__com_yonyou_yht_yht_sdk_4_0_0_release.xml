@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.yonyou.yht:yht-sdk:4.0.0-release">
+    <CLASSES>
+      <root url="jar://D:/worksoft/gitworkspace/repository/com/yonyou/yht/yht-sdk/4.0.0-release/yht-sdk-4.0.0-release.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/worksoft/gitworkspace/repository/com/yonyou/yht/yht-sdk/4.0.0-release/yht-sdk-4.0.0-release-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/worksoft/gitworkspace/repository/com/yonyou/yht/yht-sdk/4.0.0-release/yht-sdk-4.0.0-release-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

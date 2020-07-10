@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "mdf.mobile",
+      "type": "com.yonyou.ucf.mdf.app.mobile.MobileProperties",
+      "sourceType": "com.yonyou.ucf.mdf.app.mobile.MobileProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mdf.mobile.app-menu-list-host",
+      "type": "java.lang.String",
+      "description": "请求移动端菜单列表的域名",
+      "sourceType": "com.yonyou.ucf.mdf.app.mobile.MobileProperties"
+    },
+    {
+      "name": "mdf.mobile.cross-domain-whitelist",
+      "type": "java.lang.String[]",
+      "description": "移动端允许跨域的域名后缀",
+      "sourceType": "com.yonyou.ucf.mdf.app.mobile.MobileProperties",
+      "defaultValue": [
+        "yyuap.com",
+        "diwork.com",
+        "yonyoucloud.com",
+        "yonyou.com"
+      ]
+    },
+    {
+      "name": "mdf.mobile.yht-token-private-key",
+      "type": "java.lang.String",
+      "description": "解密空间yhtToken的私钥",
+      "sourceType": "com.yonyou.ucf.mdf.app.mobile.MobileProperties"
+    }
+  ],
+  "hints": []
+}

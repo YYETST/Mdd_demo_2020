@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.yonyou.cloud:auth-sdk-core:3.5.3-RELEASE">
+    <CLASSES>
+      <root url="jar://D:/worksoft/gitworkspace/repository/com/yonyou/cloud/auth-sdk-core/3.5.3-RELEASE/auth-sdk-core-3.5.3-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/worksoft/gitworkspace/repository/com/yonyou/cloud/auth-sdk-core/3.5.3-RELEASE/auth-sdk-core-3.5.3-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/worksoft/gitworkspace/repository/com/yonyou/cloud/auth-sdk-core/3.5.3-RELEASE/auth-sdk-core-3.5.3-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

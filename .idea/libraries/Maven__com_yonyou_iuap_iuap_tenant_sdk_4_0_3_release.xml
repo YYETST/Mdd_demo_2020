@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.yonyou.iuap:iuap-tenant-sdk:4.0.3-release">
+    <CLASSES>
+      <root url="jar://D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-tenant-sdk/4.0.3-release/iuap-tenant-sdk-4.0.3-release.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-tenant-sdk/4.0.3-release/iuap-tenant-sdk-4.0.3-release-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/worksoft/gitworkspace/repository/com/yonyou/iuap/iuap-tenant-sdk/4.0.3-release/iuap-tenant-sdk-4.0.3-release-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dev-threefan-conf" />
+        <module name="dev-threefan-domain" />
+        <module name="dev-threefan-api" />
+        <module name="dev-threefan-mobile" />
+        <module name="dev-threefan-bootstrap" />
+        <module name="dev-threefan-app" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dev-threefan-api" target="1.8" />
+      <module name="dev-threefan-app" target="1.8" />
+      <module name="dev-threefan-bootstrap" target="1.8" />
+      <module name="dev-threefan-conf" target="1.8" />
+      <module name="dev-threefan-domain" target="1.8" />
+      <module name="dev-threefan-mobile" target="1.8" />
+      <module name="threefan" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dev-threefan-api" options="-parameters" />
+      <module name="dev-threefan-app" options="-parameters" />
+      <module name="dev-threefan-bootstrap" options="-parameters" />
+      <module name="dev-threefan-conf" options="-parameters" />
+      <module name="dev-threefan-domain" options="-parameters" />
+      <module name="dev-threefan-mobile" options="-parameters" />
+    </option>
+  </component>
+</project>

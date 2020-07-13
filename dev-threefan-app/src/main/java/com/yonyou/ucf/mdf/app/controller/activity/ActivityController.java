@@ -2,17 +2,13 @@ package com.yonyou.ucf.mdf.app.controller.activity;
 
 import com.yonyou.ucf.mdd.common.context.MddBaseContext;
 import com.yonyou.ucf.mdd.common.dto.BaseReqDto;
-import com.yonyou.ucf.mdd.common.enums.OperationTypeEnum;
 import com.yonyou.ucf.mdd.common.interfaces.context.ISimpleUser;
-import com.yonyou.ucf.mdd.common.model.rule.RuleContext;
-import com.yonyou.ucf.mdd.common.model.rule.RuleExecuteResult;
-import com.yonyou.ucf.mdd.rule.api.RuleEngine;
 import com.yonyou.ucf.mdf.app.common.ResultMessage;
 import com.yonyou.ucf.mdf.app.controller.BaseController;
-import com.yonyou.ucf.mdf.app.exceptions.BusinessException;
-import com.yonyou.ucf.mdf.app.util.RuleEngineUtils;
-import com.yonyou.ucf.mdf.domain.service.ActivityService;
-import com.yonyou.ucf.mdf.domain.util.CommonUtil;
+import com.yonyou.ucf.mdf.app.controller.BillController;
+import com.yonyou.ucf.mdf.domain.service.MddActivityService;
+import com.yonyou.ucf.mdf.domain.service.MybatisActivityService;
+import com.yonyou.ucf.mdf.domain.service.SqlActivityService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -32,9 +28,10 @@ import java.util.Map;
 @Slf4j
 @RestController
 @RequestMapping("/activity")
-public class ActivityController extends BaseController {
+public class ActivityController extends BillController {
+
     @Autowired
-    ActivityService activityService;
+    MddActivityService mddActivityService;
 
     /**
      * 测试查询数据
@@ -45,32 +42,30 @@ public class ActivityController extends BaseController {
     @RequestMapping("/select")
     public void getBill(@RequestBody Map<String, Object> params, HttpServletRequest request, HttpServletResponse response){
         try {
+            //获取当前登录用户信息
             ISimpleUser user = MddBaseContext.getCurrentUser();
-            activityService.select(params);
+            Object object1 =  mddActivityService.select(params);
+            this.renderJson(response, ResultMessage.data(object1));
+        } catch (Exception e) {
+            this.renderJson(response, ResultMessage.error(e.getMessage()));
+        }
+    }
+
+
+    @RequestMapping("/update")
+    public void update(@RequestBody BaseReqDto bill, HttpServletRequest request, HttpServletResponse response){
+        try {
+            //可以在这里添加自己的逻辑bill
+            super.save(bill, request, response);
             this.renderJson(response, ResultMessage.success());
         } catch (Exception e) {
             this.renderJson(response, ResultMessage.error(e.getMessage()));
         }
     }
 
-    /**
-     * 测试规则链
-     * @param baseReqDto
-     * @return
-     * @throws Exception
-     */
-    @RequestMapping("/rule")
-    public RuleExecuteResult check(@RequestBody BaseReqDto baseReqDto) throws Exception {
-        try {
-            RuleContext ruleContext = RuleEngineUtils.prepareRuleContext(baseReqDto, "activity");
-            RuleExecuteResult result = RuleEngine.getInstance().execute(ruleContext);
-            if (result.getMsgCode() != 1) {
-                throw new BusinessException(result.getMessage());
-            } else {
-                return result;
-            }
-        } catch (Exception var4) {
-            throw new BusinessException(var4.getMessage());
-        }
-    }
+
+
+
+
+
 }

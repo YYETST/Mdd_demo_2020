@@ -1,6 +1,7 @@
 package com.yonyou.ucf.mdf.domain.redis;
 
 import com.yonyou.ucf.mdd.redis.core.MddRedisManager;
+import org.imeta.biz.base.BizContext;
 import org.springframework.stereotype.Repository;
 
 /**

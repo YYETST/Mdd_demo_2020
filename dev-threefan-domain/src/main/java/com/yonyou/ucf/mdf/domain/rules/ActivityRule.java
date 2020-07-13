@@ -35,25 +35,24 @@ import java.util.*;
 @Component("activityRule")
 public class ActivityRule extends AbstractRule {
 
-    @Autowired
-    MddMetaDaoHelper mddMetaDaoHelper;
-
 
 
     @Override
     public <T> RuleExecuteResult execute(RuleContext ruleContext, T... tObjs) throws Exception {
-        ProcessService processService = ServiceUtils.getProcessService();
+        //获取UI元数据
         UIMetaBaseInfo uiMetaBaseInfo = ruleContext.getUiMetaBaseInfo();
+        //取业务数据
         List<BizObject> bizObjectList = this.getBizObjects(uiMetaBaseInfo, ruleContext);
         Iterator var6 = bizObjectList.iterator();
         while(var6.hasNext()) {
             BizObject bizObject = (BizObject)var6.next();
 //            bizObject.set("creator", ruleContext.getUserId());
 //            bizObject.set("creationtime", new Date());
-            if(bizObject.get("new1").equals("111")){
+            if(bizObject.get("name").equals("111")){
                 throw  new BusinessException("new1不能为111");
             }
         }
+        ruleContext.setCusMapValue("rulecontent","111123");
         return new RuleExecuteResult();
     }
 }

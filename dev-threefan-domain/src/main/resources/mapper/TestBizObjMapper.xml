@@ -2,6 +2,24 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.yonyou.ucf.mdf.domain.dao.mybatisActivityDao">
     <select id="select" resultType="List">
-        select string_0,string_1 from  t_test_xsw4twa9 limit 10
+        select string_0,string_1 from  t_activity_doc_xsw4twa9 limit 10
     </select>
+
+    <select id="selectMerchant" parameterType="String" resultType="map">
+        select string_0 from
+        t_activity_doc_xsw4twa9
+        <where>
+            <if test="id != null">
+                id =  ${id}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateStopEnable" parameterType="hashMap" statementType="STATEMENT">
+    	update t_activity_doc_xsw4twa9 t set t.enable=${enable},t.disablets='${disablets}' where t.id = '${id}';
+	</update>
+
+    <delete id="delete" parameterType="map">
+	   delete from t_activity_doc_xsw4twa9 where t.id = '${id}';
+	</delete>
 </mapper>
